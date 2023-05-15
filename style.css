@@ -400,6 +400,7 @@ html {
     .section-design-main {
         display: flex;
         flex-direction: column;
+        padding: 0 26px;
     }
     
     .section-design-main__laptop {
@@ -421,11 +422,6 @@ html {
         height: 41px;
     }
     
-    .paragraph {
-        line-height: 120%;
-        max-width: 322px;
-    }
-    
     .section-design-main__paragraph {
         margin: 0 auto;
     }
@@ -435,8 +431,7 @@ html {
     }
     
     .about-me {
-        padding-top: 91px;
-        padding-bottom: 82px;
+        padding: 91px 26px 82px;
     }
     
     .about-me__h2 {
@@ -539,6 +534,10 @@ html {
 
     .pictures__place-blue-eight {
         order: 7;
+    }
+
+    .content-form {
+        padding: 0 26px;
     }
     
     .footer {
